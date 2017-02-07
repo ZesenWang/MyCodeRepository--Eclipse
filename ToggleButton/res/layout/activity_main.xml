@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.togglebutton.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="开"
+            android:textOff="guan"
+            android:checked="true"
+         
+            android:text="ToggleButton" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+</FrameLayout>
+

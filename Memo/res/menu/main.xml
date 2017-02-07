@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memo.MainActivity" 
+    >
+
+    <item
+        android:id="@+id/searchView"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"
+	/>
+	<item
+	    android:id="@+id/select"
+	    android:orderInCategory="100"
+	    android:showAsAction="collapseActionView"
+	    android:title="Select"
+	/>
+	<item
+	    android:id="@+id/delete"
+	    android:orderInCategory="100"
+	    android:showAsAction="collapseActionView"
+	    android:title="Delete"
+	/>
+	<item
+	    android:id="@+id/account"
+	    android:orderInCategory="100"
+	    android:showAsAction="collapseActionView"
+	    android:title="Account"
+	/>
+	<item
+	    android:id="@+id/about"
+	    android:orderInCategory="100"
+	    android:showAsAction="collapseActionView"
+	    android:title="About this service"
+	/>
+</menu>

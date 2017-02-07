@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+	<RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio0"
+                style="@style/fenqile_tab"
+                android:checked="true"
+                android:text="首页" />
+
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/radio1"
+                style="@style/fenqile_tab"
+                android:text="分类" />
+
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/radio2"
+                style="@style/fenqile_tab"
+                android:text="信用钱包" />
+            
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/radio3"
+                style="@style/fenqile_tab"
+                android:text="附近" />
+        </RadioGroup>
+</LinearLayout>
